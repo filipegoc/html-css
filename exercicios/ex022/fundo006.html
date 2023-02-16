@@ -7,17 +7,24 @@
     <title>Teste de Imagem de Fundo</title>
     <style>
         body{
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*COM SHORTHAND -> (O BACKGROUND-SIZE NAO FUNCIONA NA SHORTHAND, POR ISSO FOI DECLARADO SOZINHO!!)*/    
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -28,6 +35,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dolore ab commodi et corporis reiciendis quidem necessitatibus voluptatibus, ad, voluptas labore perspiciatis iusto suscipit in unde. Quaerat laboriosam maxime quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsam quo voluptatibus ab eveniet tempora vel earum, quis nihil repellendus mollitia? At ut odit itaque reprehenderit porro. Ipsum, similique possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laudantium doloribus rem nobis dignissimos necessitatibus placeat, aut possimus minus, doloremque deserunt similique repudiandae eum neque magni modi fugit sed explicabo.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dolore ab commodi et corporis reiciendis quidem necessitatibus voluptatibus, ad, voluptas labore perspiciatis iusto suscipit in unde. Quaerat laboriosam maxime quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsam quo voluptatibus ab eveniet tempora vel earum, quis nihil repellendus mollitia? At ut odit itaque reprehenderit porro. Ipsum, similique possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laudantium doloribus rem nobis dignissimos necessitatibus placeat, aut possimus minus, doloremque deserunt similique repudiandae eum neque magni modi fugit sed explicabo.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dolore ab commodi et corporis reiciendis quidem necessitatibus voluptatibus, ad, voluptas labore perspiciatis iusto suscipit in unde. Quaerat laboriosam maxime quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsam quo voluptatibus ab eveniet tempora vel earum, quis nihil repellendus mollitia? At ut odit itaque reprehenderit porro. Ipsum, similique possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laudantium doloribus rem nobis dignissimos necessitatibus placeat, aut possimus minus, doloremque deserunt similique repudiandae eum neque magni modi fugit sed explicabo.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dolore ab commodi et corporis reiciendis quidem necessitatibus voluptatibus, ad, voluptas labore perspiciatis iusto suscipit in unde. Quaerat laboriosam maxime quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsam quo voluptatibus ab eveniet tempora vel earum, quis nihil repellendus mollitia? At ut odit itaque reprehenderit porro. Ipsum, similique possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laudantium doloribus rem nobis dignissimos necessitatibus placeat, aut possimus minus, doloremque deserunt similique repudiandae eum neque magni modi fugit sed explicabo.</p>
     </main>
 </body>
